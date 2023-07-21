@@ -1,0 +1,38 @@
+{
+  "name": "istep-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2"
+  },
+  "dependencies": {
+    "@notum-cz/strapi-plugin-content-versioning": "^0.4.9",
+    "@palmabit/strapi-app-version": "^1.1.0",
+    "@strapi/plugin-graphql": "^4.11.7",
+    "@strapi/plugin-i18n": "4.11.7",
+    "@strapi/plugin-users-permissions": "4.11.7",
+    "@strapi/strapi": "4.11.7",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-duplicate-button": "^1.1.11",
+    "strapi-plugin-notes": "^1.0.1",
+    "strapi-plugin-publisher": "^1.3.7"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "10b6f772-146e-4968-b35c-b8a61f3921b2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
